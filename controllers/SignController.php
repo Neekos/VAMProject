@@ -8,6 +8,7 @@ class SignController
 		require_once (ROOT.'/view/sign/signin.php');
 		return true;
 	}
+<<<<<<< HEAD
 
 
 	public function ActionLogin()
@@ -57,5 +58,7 @@ class SignController
 
 	}
 
+=======
+>>>>>>> Виктор
 }
 ?>

@@ -20,11 +20,15 @@
     <div class="col-md-4">
       <div class="input-group ">
         
+<<<<<<< HEAD
 <?php if (isset($errors) && is_array($errors)): ?>
 <?php foreach ($errors as $item): ?>
   <li><?=$item; ?></li>
 <?php endforeach; ?>
 <?php endif; ?>
+=======
+
+>>>>>>> Виктор
         <form  method="post" >
 
         <p>Логин</p> <input type="text" name="username1" value="" class="form-control"/>
