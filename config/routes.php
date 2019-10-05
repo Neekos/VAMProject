@@ -1,7 +1,7 @@
 <?php
 
 return array(
-	'signin' => 'sign/index',
+	'signin' => 'sign/login',
 	'main'  => 'main/index',
 	'' => 'main/index',
 

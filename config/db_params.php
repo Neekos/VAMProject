@@ -3,7 +3,7 @@
 return array (
 
 	'host' => 'localhost',
-	'dbname' => 'Agro',
+	'dbname' => 'WebStudio',
 	'user' => 'root',
 	'password' => '',
 );
