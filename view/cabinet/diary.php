@@ -5,17 +5,20 @@
 <h3>Дневник разработки</h3>
 <div class="container-fluid">
 	<div class="row">
-<div class="col-md-8">
+
 <?if(!empty($DiaryList)) :?>
 <? foreach ($DiaryList as $item):?>
-	<h3><?=$item['title'];?></h3>
-	<p><?=$item['discription'];?></p>
-	<p><?=$item['p_date'];?></p>
+	<div class="col-md-12 title"><h3><?=$item['title'];?></h3><?=$item['p_date'];?></div>
+	<div class="col-md-12 title"><p><?=$item['discription'];?></p></div>
+	
 <? endforeach; ?>
 <? else: ?>
 	<p>Записей нет</p>
 
 <? endif;?>
+	</div>
+<div class="row">
+<div class="col-md-12">
 <form method="POST">
 	<input type="text" name="title"><br> <br>
 	<input type="date" name="p_date"><br> <br>
@@ -26,7 +29,7 @@
 </form>
 </div>
 </div>
-</div>
+</div></div>
 <?php 
 	include '/template/footer.php';
 
