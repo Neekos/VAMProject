@@ -1,7 +1,7 @@
 <?php
 
 return array(
-	'cabinet' => 'sign/cabinet',
+	'cabinet' => 'cabinet/index',
 	'logout' => 'sign/logout',
 	'signup' => 'sign/registration',
 	'signin' => 'sign/login',
