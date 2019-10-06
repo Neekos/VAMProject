@@ -1,11 +1,9 @@
 <?php
 
 return array(
-<<<<<<< HEAD
+	'logout' => 'sign/logout',
+	'signup' => 'sign/registration',
 	'signin' => 'sign/login',
-=======
-	'signin' => 'sign/index',
->>>>>>> Виктор
 	'main'  => 'main/index',
 	'' => 'main/index',
 

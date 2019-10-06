@@ -11,7 +11,11 @@
     <a class="p-2 text-dark" href="#">О нас</a>
     <a class="p-2 text-dark" href="#">Поддержка</a>
   </nav>
+  <?php if(Sign::isGuest()): ?>
   <a class="btn btn-outline-primary" href="/signin/">Sign up</a>
+  <?php else: ?>
+  <a class="btn btn-outline-primary" href="/logout/">Log Out</a>
+<?php endif; ?>
 </div>
 
 <div class="container-fluid">

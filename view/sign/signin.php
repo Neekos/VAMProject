@@ -16,38 +16,18 @@
 
 <div class="container-fluid">
 
-  <div class="row justify-content-center align-items-center">
-    <div class="col-md-4">
-      <div class="input-group ">
-        
-<<<<<<< HEAD
-<?php if (isset($errors) && is_array($errors)): ?>
-<?php foreach ($errors as $item): ?>
-  <li><?=$item; ?></li>
-<?php endforeach; ?>
-<?php endif; ?>
-=======
+  <form method="POST">
+    <h3>Авторизация</h3>
+    <input type="text" name="username" placeholder="Логин"><br><br>
+    <input type="password" name="password" placeholder="Пароль"><br>
+    <a href="/signup/">Регистрация</a><br>
+    <input type="submit" name="signin">
 
->>>>>>> Виктор
-        <form  method="post" >
-
-        <p>Логин</p> <input type="text" name="username1" value="" class="form-control"/>
-
-        <p>Пароль</p> <input type="password" name="password1" value="" class="form-control"/> 
-        <br>
-        
-        <input type="submit" value="Войти" name="login" class="btn btn-primary mb-2" />
-          
-        </form>
-  
-      </div>
-    </div>
-  </div>
-  
- 
+  </form>
 
 </div>
-</div>
+   
+
 
 
 
