@@ -53,15 +53,28 @@ h1 {
 	margin-top:20px;
 }
 .image {
-	height:500px;
-	margin-top:-1px;
-	margin-bottom:20px;
-	background-image: url(/template/image/1.jpg);
-	color:#FFF;
-	
+	margin-top:-1px;	
+	color:#FFF;	
 }
 .banner {
 	background: #333;
 	color:#fff;
 	opacity: 0.7;
+}
+.img-wrap {
+  position: relative;
+  background: #333;
+  color:#fff;
+  opacity: 0.7; 
+}
+
+.img-wrap p {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.text {
+
+
 }

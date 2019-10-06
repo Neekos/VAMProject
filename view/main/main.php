@@ -7,12 +7,15 @@
 
 
 <div class="container-fluid">
-  <div class="row justify-content-center align-items-center image">
-  <div class="col-md-12 align-self-start item banner">
-        <center><h1>Закажи сайт сегодня и получи скидку 30%</h1></center>
 
-      <center><p class="lead">Воспользуйтесь возможность и закажите сайт прямо сейчас по самой низкой цену прямо здесь, прямо сейчас</p></center>
+  <div class="row justify-content-center align-items-center image">
+  <div class="img-wrap">
+  <img src="/template/image/1.jpg" alt="" class="img-fluid float-left">
+  <div class="text">
+  <p>Воспользуйтесь возможность и закажите сайт прямо сейчас по самой низкой цену прямо здесь, прямо сейчас</p>
   </div>
+  </div>
+ 
   </div>
   <div class="row justify-content-center align-items-center ">
 
