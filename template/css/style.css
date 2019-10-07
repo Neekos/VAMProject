@@ -32,3 +32,49 @@ h1 {
 	height:400px;
 	margin-top:10px;*/
 }
+
+.title {
+	margin-bottom:10px;
+	background-color:#F4F4F4;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.header {
+	box-shadow: 0 0 10px rgba(95,222,229,0.5)!important;
+	background-color:#5FCAE5!important;
+	color:#fff!important;
+	margin:0!important;
+}
+.header a {
+	
+	color:#fff!important;
+}
+.block1 {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	margin-top:20px;
+}
+.image {
+	margin-top:-1px;	
+	color:#FFF;	
+}
+.banner {
+	background: #333;
+	color:#fff;
+	opacity: 0.7;
+}
+.img-wrap {
+  position: relative;
+  background: #333;
+  color:#fff;
+  opacity: 0.7; 
+}
+
+.img-wrap p {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.text {
+
+
+}
