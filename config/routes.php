@@ -1,6 +1,9 @@
 <?php
 
 return array(
+	'def'=>'def/index',
+	'about'=>'about/index',
+	'price'=>'price/index',
 	'galereya'=>'galereya/index',
 	'cabinet/diary' => 'cabinet/diary',
 	'cabinet' => 'cabinet/index',
