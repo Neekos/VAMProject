@@ -1,6 +1,7 @@
 <?php
 
 return array(
+	'galereya'=>'galereya/index',
 	'cabinet/diary' => 'cabinet/diary',
 	'cabinet' => 'cabinet/index',
 	'logout' => 'sign/logout',
