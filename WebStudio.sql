@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Окт 06 2019 г., 20:04
+-- Время создания: Окт 09 2019 г., 19:10
 -- Версия сервера: 5.6.37
 -- Версия PHP: 5.6.31
 
@@ -47,6 +47,46 @@ INSERT INTO `diary` (`ID`, `title`, `discription`, `p_date`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Структура таблицы `service`
+--
+
+CREATE TABLE `service` (
+  `id` int(10) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `discription` text NOT NULL,
+  `type_service` int(10) NOT NULL,
+  `price` varchar(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `service`
+--
+
+INSERT INTO `service` (`id`, `name`, `discription`, `type_service`, `price`) VALUES
+(5, '1', '1', 1, '1');
+
+-- --------------------------------------------------------
+
+--
+-- Структура таблицы `type_service`
+--
+
+CREATE TABLE `type_service` (
+  `ID` int(10) NOT NULL,
+  `type` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Дамп данных таблицы `type_service`
+--
+
+INSERT INTO `type_service` (`ID`, `type`) VALUES
+(1, 'Разработка'),
+(2, 'Маркетинг');
+
+-- --------------------------------------------------------
+
+--
 -- Структура таблицы `user`
 --
 
@@ -77,6 +117,18 @@ ALTER TABLE `diary`
   ADD PRIMARY KEY (`ID`);
 
 --
+-- Индексы таблицы `service`
+--
+ALTER TABLE `service`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Индексы таблицы `type_service`
+--
+ALTER TABLE `type_service`
+  ADD PRIMARY KEY (`ID`);
+
+--
 -- Индексы таблицы `user`
 --
 ALTER TABLE `user`
@@ -91,6 +143,16 @@ ALTER TABLE `user`
 --
 ALTER TABLE `diary`
   MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+--
+-- AUTO_INCREMENT для таблицы `service`
+--
+ALTER TABLE `service`
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+--
+-- AUTO_INCREMENT для таблицы `type_service`
+--
+ALTER TABLE `type_service`
+  MODIFY `ID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT для таблицы `user`
 --
