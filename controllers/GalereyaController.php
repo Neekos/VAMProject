@@ -11,7 +11,9 @@ class GalereyaController
 
 	#Тут будет функция просмотра 
 	public function actionViewphoto(){
-		
+			$result = Galereya::GetViewPhoto(); 
+			require_once (ROOT.'/view/galereya/galereya.php');
+			return true;
 	}
 
 	#Тут будет функция добавления 
