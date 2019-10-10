@@ -15,16 +15,17 @@
      
     </tr>
   </thead>
-  <tbody>
+<tbody>
 <?if(!empty($serviceList)) :?>
-<? foreach ($serviceList as $item):?>
+<? foreach ($serviceList as $items):?>
+
     <tr>
 
-      <td><?$item['id'];?></th>
-      <td><?$item['name'];?></td>
-      <td><?$item['discription'];?></td>
-      <td><?$item['type'];?></td>
-      <td><?$item['price'];?></td>
+      <td><?=$items['id'];?></td>
+      <td><?=$items['name'];?></td>
+      <td><?=$items['discription'];?></td>
+      <td><?=$items['type'];?></td>
+      <td><?=$items['price'];?></td>
 
     </tr>
 <? endforeach;?>
