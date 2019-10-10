@@ -48,7 +48,7 @@
 </div>
 
   <div class="row justify-content-center ">
-      <div class="col-md-9 block1">
+      <div class="col-md-12 block1">
       <h3>Стартуем!</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias nulla doloribus soluta dolore dolor, tempora. Modi in natus totam magni consectetur. Iusto totam debitis culpa eum explicabo, maiores placeat possimus sit inventore.</p>
     </div>
@@ -63,7 +63,7 @@
   </div>
 
 </div>
-</div>
+
 
 
 
