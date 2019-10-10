@@ -45,6 +45,31 @@ class CMS {
 			return $serviceList;
 			
 	}
+	public static function getServiceList_3() 
+	{
+	
+			
+			$db = Db::getConnection();
+			$result = $db->query('SELECT service.id, service.name, service.discription, type_service.type, service.price FROM service LEFT JOIN type_service ON service.type_service=type_service.ID LIMIT 3');
+			$result->setFetchMode(PDO::FETCH_ASSOC);
+
+			$serviceList = array();
+
+			$i = 0;
+
+			while($row = $result->fetch())
+			{
+				$serviceList[$i]['id'] = $row['id'];
+				$serviceList[$i]['name'] = $row['name'];
+				$serviceList[$i]['discription'] = $row['discription'];
+				$serviceList[$i]['type'] = $row['type'];
+				$serviceList[$i]['price'] = $row['price'];
+				$i++;
+
+			}
+			return $serviceList;
+			
+	}
 	public static function selectType()
 	{
 		$db = Db::getConnection();
