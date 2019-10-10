@@ -13,15 +13,37 @@
         <?php endforeach; ?>
       </ul>
     <?php endif; ?>
-  <form method="POST">
+    <div class="mychange">
+    <form method="POST" class="form">
+        <div class="form_title">
+          <h3>Регистрация</h3>
+        </div>
+        <div class="goup">
+          <input class="form_input" type="text" name="username" placeholder="Имя пользователя">
+          <label class="form_label"> Имя </label>
+        </div>
+        <div class="goup">
+          <input class="form_input" type="password" name="password" placeholder="Пароль">
+          <label class="form_label"> Пароль </label>
+        </div>
+         <div class="goup">
+          <input class="form_input" type="password" name="password-confirm" placeholder="Повторите пароль">
+          <label class="form_label"> Повторите пароль </label>
+        </div>
+        <div class="goup">
+          <input class="form_input" type="email" name="email" placeholder="E-mail">
+          <label class="form_label"> E-mail </label>
+        </div>
+        <br>
+        <input class="form_button signup" type="submit" name="registration" value="Регистрация">
+      </form>
+    </div>
+  
     
-    <h3>Регистрация</h3>
-    <input type="text" name="username" placeholder="Имя пользователя"><br><br>
-    <input type="password" name="password" placeholder="Пароль"><br><br>
-    <input type="password" name="password-confirm" placeholder="Повторите пароль"><br><br>
-    <input type="email" name="email" placeholder="Электронная почта"><br><br>
-    <input type="submit" name="registration" value="Регистрация">
-  </form>
+    
+    
+    
+  
 
 </div>
    
