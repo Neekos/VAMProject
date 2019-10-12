@@ -2,6 +2,7 @@
 	include '/template/header.php';
 
 ?>
+<div class="container-fluid">
 <h2>Редактировать</h2>
 
 <table class="table table-light">
@@ -56,6 +57,7 @@
 	<input type="text" name="price"><br> <br>
 	<input type="submit" name="add_service">
 </form>
+</div>
 <?php 
 	include '/template/footer.php';
 
