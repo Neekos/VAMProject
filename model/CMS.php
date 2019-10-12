@@ -89,7 +89,28 @@ class CMS {
 
 			}
 			return $selectType;
-}	
+		}
+	public static function getServiceById($id) 
+	{
+		
+		
+		$id = intval($id);
+
+		
+
+		if($id) 
+		{	
+			$db = Db::getConnection();		
+			$result = $db->query('SELECT service.id, service.name, service.discription, type_service.type, service.price FROM service LEFT JOIN type_service ON service.type_service=type_service.ID
+				WHERE service.id='. $id);
+			
+
+			$ServiceView = $result->fetch();
+			
+			
+		}
+		return $ServiceView;
+	}	
 
 }
 

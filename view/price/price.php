@@ -8,7 +8,7 @@
   <? foreach ($serviceList as $items):?>
 <div class="row justify-content-center ">
     <div class="col-md-12 ">
-      <a href=""><h3><?=$items['name'];?></h3></a>
+      <h3><?php echo '<a href="/price/view/'.$items['id'].'">'.$items['name'].'</a>'?></h3>
       <p><?=$items['discription'];?></p>
       <p><?=$items['price'];?> Рублей</p>
     </div>
