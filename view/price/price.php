@@ -2,12 +2,33 @@
 	include '/template/header.php'
 
 ?>
-	<div class="container">
-		<div class="row">
-			Тут будут располагатся услуги
-		</div>
-	</div>
+<div class="container-fluid">
+	
+  <?if(!empty($serviceList)) :?>
+  <? foreach ($serviceList as $items):?>
+<div class="row justify-content-center ">
+    <div class="col-md-12 ">
+      <h3><?php echo '<a href="/price/view/'.$items['id'].'">'.$items['name'].'</a>'?></h3>
+      <p><?=$items['discription'];?></p>
+      <p><?=$items['price'];?> Рублей</p>
+    </div>
+ </div>   
+<? endforeach; ?>
 
+
+
+
+     
+      
+
+<?php else: ?>
+    <div class="col-md-4 head">
+      <h3>Здесь пока свободно</h3>    
+    </div>
+<?php endif ?>
+
+
+</div>
 <?php 
 	include '/template/footer.php'
 

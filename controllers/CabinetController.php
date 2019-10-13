@@ -16,7 +16,15 @@
 			return true;
 		}
 
- 		
+ 	public function actionCMS() {
+ 					
+			$result=CMS::add_service();
+			$selectType=CMS::selectType(); 
+			$serviceList=CMS::getServiceList();
+			print_r($serviceList);
+			require_once (ROOT.'/view/cabinet/cms.php');
+			return true;
+		}	
  	
  	}
 

@@ -23,25 +23,29 @@
 
       <p class="lead">Воспользуйтесь возможность и закажите сайт прямо сейчас по самой низкой цену прямо здесь, прямо сейчас</p>
   </div>
-
-  
   <div class="row justify-content-center ">
-    <div class="col-md-3 head">
-      <h3>Лендинг</h3>
-      <p>Создай иммидж для своей организации, крутым сайтом-визиткой расскажи о своем деле всему миру!</p>
-    </div>
+  <?if(!empty($serviceList)) :?>
+  <? foreach ($serviceList as $items):?>
 
     <div class="col-md-3 head">
-      <h3>Интернет-магазин</h3>
-      <p>Создай свой магазин в интернете просто присоединяйся к нам!</p>
-    </div>
+      <h3><?=$items['name'];?></h3>
+      <p><?=$items['discription'];?></p>
+    </div>   
+<? endforeach; ?>
+
+<? foreach ($serviceList as $items):?>
 
     <div class="col-md-3 head">
-      <h3>Корпоративный сайт</h3>
-      <p>Расскажи о своей компании, создав крутое веб-приложение </p>
+      <p><?=$items['price'];?> Рублей</p>
+    </div>   
+<? endforeach; ?>
+<?php else: ?>
+    <div class="col-md-12 head">
+      <h3>Здесь пока свободно</h3>    
     </div>
- 
-  </div>
+<?php endif ?>
+
+</div>
 
   <div class="row justify-content-center ">
       <div class="col-md-9 block1">
@@ -59,7 +63,7 @@
   </div>
 
 </div>
-</div>
+
 
 
 

@@ -4,6 +4,7 @@
 	margin-left:10px;
 	text-align: center;
 	opacity: 0.8;
+	margin-top:2px;
 }
 
 .head:hover {
@@ -158,4 +159,20 @@ h1 {
 }
 .signup{
 	margin-left: 130px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 70px;// значение высоты #footer
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background-color: #F0F0E9;
 }
