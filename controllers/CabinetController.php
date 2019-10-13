@@ -16,6 +16,14 @@
 			return true;
 		}
 
+	public function actionGalery() {
+ 		
+			
+			
+			require_once (ROOT.'/view/cabinet/galery.php');
+			return true;
+		}
+		
  	public function actionCMS() {
  			
 			$result=CMS::add_service();
