@@ -142,6 +142,16 @@ class CMS {
 		}
 		return true;
 		}
+	}
+	public static function delService($id) {
+		$id = intval($id);	
+		if($id)	{
+			$db = Db::getConnection();
+		$result = $db->query('DELETE FROM `service` WHERE `service`.`id` = "'.$id.'"');
+		header("Location: /cabinet/cms/");
+
+		}
+		return true;
 	}	
 
 }

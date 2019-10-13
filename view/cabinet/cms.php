@@ -27,8 +27,8 @@
       <td><?=$items['discription'];?></td>
       <td><?=$items['type'];?></td>
       <td><?=$items['price'];?></td>
-	  <td>><?php echo '<a href="/cabinet/redservice/'.$items['id'].'">Редактировать</a>'?></td>
-
+	  <td><?php echo '<a href="/cabinet/redservice/'.$items['id'].'">Редактировать</a>'?></td>
+	  <td><?php echo '<a href="/cabinet/delservice/'.$items['id'].'">Удалить</a>'?></td>
     </tr>
 <? endforeach;?>
 <? else: ?>

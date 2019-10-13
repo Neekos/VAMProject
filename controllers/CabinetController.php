@@ -40,6 +40,15 @@
 		return true;
 			
 	}
+	public function actionDelService($id)
+	{
+		
+		
+		$delService=CMS::DelService($id);
+
+		return true;
+			
+	}
 }
 
 
