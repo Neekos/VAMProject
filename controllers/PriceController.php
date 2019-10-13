@@ -18,7 +18,7 @@
 		$serviceView = array();
 
 		$serviceView = CMS::getServiceById($id);
-		print_r($serviceView);
+		
 		require_once (ROOT.'/view/price/view.php');
 		
 		

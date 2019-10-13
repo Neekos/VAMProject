@@ -2,7 +2,7 @@
 
 class CMS {
 
-	public static function add_service() {
+	public static function add_service($id) {
 
 		
 
@@ -14,10 +14,18 @@ class CMS {
 				$type = $_POST['type_service'];
 				$price = $_POST['price'];
 				
-			$result = $db->query("INSERT INTO `service` (`ID`,`name`, `discription`, `type_service`, `price`) VALUES (Null,'".$name."','".$discription."','".$type."','".$price."')");
+			if(is_uploaded_file($_FILES['image']['tmp_name']))
+			{
+				
+				move_uploaded_file($_FILES['image']['tmp_name'], $_SERVER['DOCUMENT_ROOT'] . '/template/image/service/'.$name.'.jpg');
+				$image = '/template/image/service/'.$name.'.jpg';
+			}
+		
+			$result = $db->query("INSERT INTO `service` (`ID`,`name`, `discription`, `type_service`, `price`,`image`) VALUES (Null,'".$name."','".$discription."','".$type."','".$price."','".$image."')");
 	        
 			header("Location: /cabinet/cms/");
-			}
+			}				
+
 			return true;
 		}
 	public static function getServiceList() 
@@ -101,7 +109,7 @@ class CMS {
 		if($id) 
 		{	
 			$db = Db::getConnection();		
-			$result = $db->query('SELECT service.id, service.name, service.discription, type_service.type, service.price FROM service LEFT JOIN type_service ON service.type_service=type_service.ID
+			$result = $db->query('SELECT service.id, service.name, service.discription, type_service.type, service.price, service.image FROM service LEFT JOIN type_service ON service.type_service=type_service.ID
 				WHERE service.id='. $id);
 			
 

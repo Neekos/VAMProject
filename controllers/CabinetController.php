@@ -17,8 +17,9 @@
 		}
 
  	public function actionCMS() {
- 					
-			$result=CMS::add_service();
+ 			$i=0;
+ 			$id = $i++;
+			$result=CMS::add_service($id);
 			$selectType=CMS::selectType(); 
 			$serviceList=CMS::getServiceList();
 			print_r($serviceList);
