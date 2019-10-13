@@ -2,7 +2,7 @@
 
 class CMS {
 
-	public static function add_service($id) {
+	public static function add_service() {
 
 		
 
