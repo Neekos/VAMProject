@@ -33,7 +33,7 @@ class CMS {
 	
 			
 			$db = Db::getConnection();
-			$result = $db->query('SELECT service.id, service.name, service.discription, type_service.type, service.price FROM service LEFT JOIN type_service ON service.type_service=type_service.ID');
+			$result = $db->query('SELECT service.id, service.name, service.discription, type_service.type, service.price, service.image FROM service LEFT JOIN type_service ON service.type_service=type_service.ID');
 			$result->setFetchMode(PDO::FETCH_ASSOC);
 
 			$serviceList = array();
@@ -47,6 +47,7 @@ class CMS {
 				$serviceList[$i]['discription'] = $row['discription'];
 				$serviceList[$i]['type'] = $row['type'];
 				$serviceList[$i]['price'] = $row['price'];
+				$serviceList[$i]['image'] = $row['image'];
 				$i++;
 
 			}
