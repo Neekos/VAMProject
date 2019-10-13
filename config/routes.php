@@ -10,7 +10,7 @@ return array(
 	
 	'price'=>'price/index',
 	'galereya'=>'galereya/index',
-
+	'cabinet/redservice/([0-9]+)' => 'cabinet/redservice/$1',
 	'cabinet/cms' => 'cabinet/cms',
 
 	'cabinet/diary' => 'cabinet/diary',

@@ -26,8 +26,21 @@
 			return true;
 		}	
  	
- 	}
+ 	
 
+ 	public function actionRedService($id)
+	{
+		
+		$serviceView = array();
+		$serviceView = CMS::getServiceById($id);
+		$selectType=CMS::selectType();
+
+		$redService = CMS::redService($id);
+		require_once (ROOT.'/view/cabinet/red_service.php');
+		return true;
+			
+	}
+}
 
 
 

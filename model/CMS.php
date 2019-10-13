@@ -119,6 +119,29 @@ class CMS {
 			
 		}
 		return $ServiceView;
+	}
+
+	public static function redService($id)
+	{
+		$id = intval($id);	
+		if($id)	{
+
+		$db = Db::getConnection();
+		if (isset($_POST['red_service'])){
+
+			$o1 = $_POST['name'];
+			$o2 = $_POST['discription'];
+			$o4 = $_POST['type_service'];
+			$o5 = $_POST['price'];
+			
+			
+		$result = $db->query("UPDATE `service` SET 
+			`name`='".$o1."',`discription` ='".$o2."', `type_service` = '".$o4."', `price` = '".$o5."' WHERE `service`.`id` = '".$id."';");
+
+		header("Location: /order/");
+		}
+		return true;
+		}
 	}	
 
 }
