@@ -16,20 +16,25 @@
 	
 </head>
 <body>
-<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm header">
-  <h5 class="my-0 mr-md-auto font-weight-normal" ><a href="/main/">WebStudio</a></h5>
-  <nav class="my-2 my-md-0 mr-md-3">
-    <a class="p-2" href="/main/">Главная</a>
-    <a class="p-2" href="/price/">Услуги</a>
-    <a class="p-2" href="/galereya/">Галерея</a>
-    <a class="p-2" href="/about/">О нас</a>
-    <a class="p-2" href="/def/">Поддержка</a>
-  </nav>
-  <?php if(Sign::isGuest()): ?>
-  <a class="btn btn-outline-primary" href="/signin/">Sign up</a>
-  <?php else: ?>
-  <a class="p-2 text-dark" href="/cabinet/">Кабинет</a>	
-  <a class="btn btn-outline-primary" href="/logout/">Log Out</a>
-<?php endif; ?>
-</div>
+    <header class="header">
+      <div class="container">
+          <div class="header__inner">
+            <div class="header__logo">VAMProject</div>
+              <nav class="nav">
+                <a class="nav__link" href="/main/">Главная</a>
+                <a class="nav__link" href="/price/">Услуги</a>
+                <a class="nav__link" href="/galereya/">Галерея</a>
+                <a class="nav__link" href="/about/">О нас</a>
+                <a class="nav__link" href="/def/">Поддержка</a>
+                <?php if(Sign::isGuest()): ?>
+                  <a class="nav__link" href="/signin/">Sign up</a>
+                  <?php else: ?>
+                  <a class="nav__link" href="/cabinet/">Кабинет</a> 
+                  <a class="nav__link" href="/logout/">Log Out</a>
+                <?php endif; ?>
+              </nav>
+          </div>
+      </div>
+    </header>
+
 		

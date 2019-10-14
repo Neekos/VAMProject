@@ -1,83 +1,123 @@
-.head {
-	background:#333;
+body{
+	margin:0;
+	font-size: 15px;
+	color:#333;
+	line-height: 1.6;
+}
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+/* container */
+.container{
+	width: 100%;
+	max-width: 1200px;
+	margin:0 auto;
+}
+
+/* intro */
+.intro{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+
+	background: url(../image/1.jpg)  center no-repeat;
+	-webkit-background-size:cover;
+	background-size: cover;
+}
+
+.intro__inner{
+	width: 100%;
+	max-width: 880px;
+	margin:0 auto;
+	text-align: center;
+}
+.intro__title{
+	color: #fff;
+	font-size: 100px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+.intro__title:after{
+	content: "";
+	display: block;
+	width: 100px;
+	height: 5px;
+	margin: 60px auto;
+
+	background-color: #fff;
+}
+
+.intro__suptitle{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 360;
+	text-transform: uppercase;
+	text-align: center;
+}
+/* header */
+
+.header{
+	padding-top: 30px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+}
+
+.header__inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__logo{
+	font-size: 30px;
+	font-weight: 700;
 	color:#fff;
-	margin-left:10px;
-	text-align: center;
-	opacity: 0.8;
-	margin-top:2px;
 }
 
-.head:hover {
-	background:#5CC9E0;
+/* nav */
+
+.nav{
+	font-size: 15px;
+	text-transform: uppercase;
 }
 
-.lead {
-	text-align: center;
-	width:70%;
+.nav__link{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 10px;
+	color: #fff;
+	text-decoration: none;
+
+	transition: color .2s linear;
 }
 
-h1 {
-	text-align: center;
+.nav__link:hover{
+	color:#fce38a;
 }
 
-.pp	{
-	margin-top:20px;
-	background: #333;
+
+/* button*/
+
+.btn__inner{
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 15px;
+	border: 3px solid #fff;
+	font-size: 20px;
+	font-weight: 700;
 	color:#fff;
-	height:500px;
-	text-align: center;
-}
-
-.img {
-	/*background-image: url("/template/image/1.jpg");
-	height:400px;
-	margin-top:10px;*/
-}
-
-.title {
-	margin-bottom:10px;
-	background-color:#F4F4F4;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
-.header {
-	box-shadow: 0 0 10px rgba(95,222,229,0.5)!important;
-	background-color:#000000!important;
-	color:#fff!important;
-	margin:0!important;
-}
-.header a {
-	
-	color:#fff!important;
-}
-.block1 {
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
-	margin-top:20px;
-}
-.image {
-	margin-top:-1px;	
-	color:#FFF;	
-}
-.banner {
-	background: #333;
-	color:#fff;
-	opacity: 0.7;
-}
-.img-wrap {
-  position: relative;
-  background: #333;
-  color:#fff;
-  opacity: 0.7; 
-}
-
-.img-wrap p {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-.text {
-
-
+	text-transform: uppercase;
+	text-decoration: none;	
 }
 
 .mychange{
