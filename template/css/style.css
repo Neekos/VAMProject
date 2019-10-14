@@ -9,14 +9,14 @@ body{
 *:after{
 	box-sizing: border-box;
 }
-/* container */
+/* container Фиксированный контейнер на 1200пх*/
 .container{
 	width: 100%;
 	max-width: 1200px;
 	margin:0 auto;
 }
 
-/* intro */
+/* intro с фоновой картинкой*/
 .intro{
 	display: flex;
 	flex-direction: column;
