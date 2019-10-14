@@ -14,10 +14,18 @@ class CMS {
 				$type = $_POST['type_service'];
 				$price = $_POST['price'];
 				
-			$result = $db->query("INSERT INTO `service` (`ID`,`name`, `discription`, `type_service`, `price`) VALUES (Null,'".$name."','".$discription."','".$type."','".$price."')");
+			if(is_uploaded_file($_FILES['image']['tmp_name']))
+			{
+				
+				move_uploaded_file($_FILES['image']['tmp_name'], $_SERVER['DOCUMENT_ROOT'] . '/template/image/service/'.$name.'.jpg');
+				$image = '/template/image/service/'.$name.'.jpg';
+			}
+		
+			$result = $db->query("INSERT INTO `service` (`ID`,`name`, `discription`, `type_service`, `price`,`image`) VALUES (Null,'".$name."','".$discription."','".$type."','".$price."','".$image."')");
 	        
 			header("Location: /cabinet/cms/");
-			}
+			}				
+
 			return true;
 		}
 	public static function getServiceList() 
@@ -25,7 +33,7 @@ class CMS {
 	
 			
 			$db = Db::getConnection();
-			$result = $db->query('SELECT service.id, service.name, service.discription, type_service.type, service.price FROM service LEFT JOIN type_service ON service.type_service=type_service.ID');
+			$result = $db->query('SELECT service.id, service.name, service.discription, type_service.type, service.price, service.image FROM service LEFT JOIN type_service ON service.type_service=type_service.ID');
 			$result->setFetchMode(PDO::FETCH_ASSOC);
 
 			$serviceList = array();
@@ -39,6 +47,7 @@ class CMS {
 				$serviceList[$i]['discription'] = $row['discription'];
 				$serviceList[$i]['type'] = $row['type'];
 				$serviceList[$i]['price'] = $row['price'];
+				$serviceList[$i]['image'] = $row['image'];
 				$i++;
 
 			}
@@ -101,7 +110,7 @@ class CMS {
 		if($id) 
 		{	
 			$db = Db::getConnection();		
-			$result = $db->query('SELECT service.id, service.name, service.discription, type_service.type, service.price FROM service LEFT JOIN type_service ON service.type_service=type_service.ID
+			$result = $db->query('SELECT service.id, service.name, service.discription, type_service.type, service.price, service.image FROM service LEFT JOIN type_service ON service.type_service=type_service.ID
 				WHERE service.id='. $id);
 			
 
@@ -110,6 +119,39 @@ class CMS {
 			
 		}
 		return $ServiceView;
+	}
+
+	public static function redService($id)
+	{
+		$id = intval($id);	
+		if($id)	{
+
+		$db = Db::getConnection();
+		if (isset($_POST['red_service'])){
+
+			$o1 = $_POST['name'];
+			$o2 = $_POST['discription'];
+			$o4 = $_POST['type_service'];
+			$o5 = $_POST['price'];
+			
+			
+		$result = $db->query("UPDATE `service` SET 
+			`name`='".$o1."',`discription` ='".$o2."', `type_service` = '".$o4."', `price` = '".$o5."' WHERE `service`.`id` = '".$id."';");
+
+		header("Location: /order/");
+		}
+		return true;
+		}
+	}
+	public static function delService($id) {
+		$id = intval($id);	
+		if($id)	{
+			$db = Db::getConnection();
+		$result = $db->query('DELETE FROM `service` WHERE `service`.`id` = "'.$id.'"');
+		header("Location: /cabinet/cms/");
+
+		}
+		return true;
 	}	
 
 }

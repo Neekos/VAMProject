@@ -176,3 +176,8 @@ body {
   height: 70px;
   background-color: #F0F0E9;
 }
+.service_img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}

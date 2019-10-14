@@ -27,7 +27,8 @@
       <td><?=$items['discription'];?></td>
       <td><?=$items['type'];?></td>
       <td><?=$items['price'];?></td>
-
+	  <td><?php echo '<a href="/cabinet/redservice/'.$items['id'].'">Редактировать</a>'?></td>
+	  <td><?php echo '<a href="/cabinet/delservice/'.$items['id'].'">Удалить</a>'?></td>
     </tr>
 <? endforeach;?>
 <? else: ?>
@@ -38,7 +39,7 @@
   </tbody>
 </table>
 
-<form method="POST">
+<form method="POST" enctype="multipart/form-data">
 	<input type="text" name="name"><br> <br>	
 	<textarea name="discription"></textarea><br> <br>
 	<?if(isset($selectType)):?>
@@ -53,7 +54,8 @@
 
 	<?endif;?>
 					</select>
-	<br> <br>				
+	<br> <br>
+	<input type="file" name="image" value="Обзор"><br><br>				
 	<input type="text" name="price"><br> <br>
 	<input type="submit" name="add_service">
 </form>

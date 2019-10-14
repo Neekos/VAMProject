@@ -9,6 +9,11 @@
 <div class="row justify-content-center ">
     <div class="col-md-12 ">
       <h3><?php echo '<a href="/price/view/'.$items['id'].'">'.$items['name'].'</a>'?></h3>
+      <div class="col-md-4">
+        
+     
+      <?php echo '<img class="service_img" src="'.$items['image'].'" alt="">'?>
+       </div>
       <p><?=$items['discription'];?></p>
       <p><?=$items['price'];?> Рублей</p>
     </div>
