@@ -97,7 +97,6 @@ body{
 	margin: 0 10px;
 	color: #fff;
 	text-decoration: none;
-
 	transition: color .2s linear;
 }
 
@@ -117,7 +116,11 @@ body{
 	font-weight: 700;
 	color:#fff;
 	text-transform: uppercase;
-	text-decoration: none;	
+	text-decoration: none;
+	transition: color .3s linear;
+}
+.btn__inner:hover{
+	color:#fce38a;
 }
 
 .mychange{
