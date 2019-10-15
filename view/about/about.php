@@ -2,11 +2,11 @@
 	include '/template/header.php'
 
 ?>
+	<section class="section__nav">
 	<div class="container">
-		<div class="row">
-			Информации о нас пока что нету!
-		</div>
+		
 	</div>
+</section>
 
 <?php 
 	include '/template/footer.php'
