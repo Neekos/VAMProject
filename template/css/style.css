@@ -15,8 +15,12 @@ h1, h2, h3, h4, h5, h5{
 }
 
 hr{
+	display: block;
+	width: 100%;
+	height: 1px;
 	border:0;
-	color: #fff;
+	margin:20px 0;
+	background-color: #fff;
 }
 
 /* container Фиксированный контейнер на 1200пх*/
