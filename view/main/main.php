@@ -47,9 +47,35 @@
           <div class="about__text">Адаптация под любое устройство</div>
         </div>
       </div>
-    </div>
+    </div><!--Container-->
   </section>
   
+  <div class="statistics">
+    <div class="container">
+      <div class="stat">
+        <div class="stat__item">
+          <div class="stat__count">0</div>
+          <div class="stat__text">Выполнено проектов</div>
+        </div>
+        <div class="stat__item">
+          <div class="stat__count">0</div>
+          <div class="stat__text">Всего проектов</div>
+        </div>
+        <div class="stat__item">
+          <div class="stat__count">0</div>
+          <div class="stat__text">Клиентов</div>
+        </div>
+        <div class="stat__item">
+          <div class="stat__count">0</div>
+          <div class="stat__text">Успешных проектов</div>
+        </div>
+        <div class="stat__item">
+          <div class="stat__count">0</div>
+          <div class="stat__text">Провальных проектов</div>
+        </div>  
+      </div>
+    </div>
+  </div>
 
 <?php 
 	include '/template/footer.php'

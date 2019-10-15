@@ -213,6 +213,29 @@ body{
 	opacity: 0;
 }
 
+
+/*statistics*/
+.statistics{
+	background-color: #333;
+}
+
+.stat{
+	display: flex;
+}
+
+.stat__item{
+	flex: 1 1 0;
+	border-left: 1px solid #fff;
+	text-align: center;
+	color: #fff;
+	padding:70px 25px;
+}
+
+.stat__item:last-child{
+	flex: 1 1 0;
+	border-right: 1px solid #fff;
+}
+
 /*======================================*/
 .mychange{
 	display: flex;
