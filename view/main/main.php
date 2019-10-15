@@ -92,15 +92,55 @@
       <div class="services">
         <div class="services__item">
           <img src="..\template\image\icon\icon1.png" alt="" class="services__icon">
-          <div class="services__title">
-            Фотографии
-          </div>
+          <div class="services__title">Услуга 1</div>
           <div class="services__text">
             В наличии у нас имееться специалист у которого большой опыт в видео и фото съемки и  обработки, который с легкость сможет устроить вам фото или видео сессию, за бесплатно :)
           </div>
+            <a href="#">Перейти</a>
         </div>
-        <div class="services__item">2</div>
-        <div class="services__item">3</div>
+        <div class="services__item">
+          <img src="..\template\image\icon\icon1.png" alt="" class="services__icon">
+          <div class="services__title">Услуга 2</div>
+          <div class="services__text">
+            В наличии у нас имееться специалист у которого большой опыт в видео и фото съемки и  обработки, который с легкость сможет устроить вам фото или видео сессию, за бесплатно :)
+          </div>
+<a href="#">Перейти</a>
+        </div>
+        <div class="services__item">
+          <img src="..\template\image\icon\icon1.png" alt="" class="services__icon">
+          <div class="services__title">Услуга 3</div>
+          <div class="services__text">
+            В наличии у нас имееться специалист у которого большой опыт в видео и фото съемки и  обработки, который с легкость сможет устроить вам фото или видео сессию, за бесплатно :)
+          </div>
+<a href="#">Перейти</a>
+        </div>
+      </div>
+        <hr>
+      <div class="services">
+        <div class="services__item">
+          <img src="..\template\image\icon\icon1.png" alt="" class="services__icon">
+          <div class="services__title">Услуга 4</div>
+          <div class="services__text">
+            В наличии у нас имееться специалист у которого большой опыт в видео и фото съемки и  обработки, который с легкость сможет устроить вам фото или видео сессию, за бесплатно :)
+          </div>
+<a href="#">Перейти</a>
+        </div>
+        <div class="services__item">
+          <img src="..\template\image\icon\icon1.png" alt="" class="services__icon">
+          <div class="services__title">Услуга 5</div>
+          <div class="services__text">
+            В наличии у нас имееться специалист у которого большой опыт в видео и фото съемки и  обработки, который с легкость сможет устроить вам фото или видео сессию, за бесплатно :)
+          </div>
+<a href="#">Перейти</a>
+        </div>
+        <div class="services__item">
+          <img src="..\template\image\icon\icon1.png" alt="" class="services__icon">
+          <div class="services__title">Услуга 6</div>
+          <div class="services__text">
+            В наличии у нас имееться специалист у которого большой опыт в видео и фото съемки и  обработки, который с легкость сможет устроить вам фото или видео сессию, за бесплатно :)
+          </div>
+          <a href="#">Перейти</a>
+        </div>
       </div>
     </div>
   </section>

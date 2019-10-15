@@ -9,6 +9,16 @@ body{
 *:after{
 	box-sizing: border-box;
 }
+
+h1, h2, h3, h4, h5, h5{
+	margin:0;
+}
+
+hr{
+	border:0;
+	color: #fff;
+}
+
 /* container Фиксированный контейнер на 1200пх*/
 .container{
 	width: 100%;
@@ -257,11 +267,12 @@ body{
 	flex: 1 1 0;
 	padding-left: 90px;
 	position: relative;
+	padding-right: 30px;
 }
 
 .services__icon{
 	position: absolute;
-	top: 20px;
+	
 	left: 0;
 	z-index: 1;
 	width: 60px;
@@ -270,10 +281,15 @@ body{
 
 .services__title{
 	font-size: 16px;
-	color:#fff;
+	font-weight: 700;
+	color:#333;
 	text-transform: uppercase;
 }
 
+.services__text{
+	font-size: 15px;
+	color:#333;
+}
 /*======================================*/
 .mychange{
 	display: flex;
