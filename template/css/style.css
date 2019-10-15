@@ -236,6 +236,17 @@ body{
 	border-right: 1px solid #fff;
 }
 
+.stat__count{
+	margin-bottom: 10px;
+	font-size: 72px;
+	font-weight: 700;
+	line-height: 1;
+}
+.stat__text{
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
 /*======================================*/
 .mychange{
 	display: flex;
