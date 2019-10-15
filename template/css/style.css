@@ -247,6 +247,33 @@ body{
 	text-transform: uppercase;
 }
 
+
+/*services*/
+.services{
+	display: flex;
+}
+
+.services__item{
+	flex: 1 1 0;
+	padding-left: 90px;
+	position: relative;
+}
+
+.services__icon{
+	position: absolute;
+	top: 20px;
+	left: 0;
+	z-index: 1;
+	width: 60px;
+	height: 50px;
+}
+
+.services__title{
+	font-size: 16px;
+	color:#fff;
+	text-transform: uppercase;
+}
+
 /*======================================*/
 .mychange{
 	display: flex;

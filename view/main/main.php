@@ -22,30 +22,36 @@
     <div class="container">
       <div class="section__header">
         <h3 class="section__suptitle">Чем мы занимаемся</h3>
-        <h2 class="section__title" >Наши услуги</h2>
+        <h2 class="section__title" >Мы занимаемся</h2>
         <div class="section__text">
           <p class="section__text__pp">Мы молодая и активная команда разработчиков которая может предложить вам разработку сайтов по низкой цене, а так же сопровождение проектов, их модернизацию и перенос на другие движки.</p>
         </div>
       </div>
       <div class="about">
-        <div class="about__item">
-          <div class="about__img">
-            <img src="..\template\image\about\2.jpg" alt="">
+        <a href="/galereya/">
+          <div class="about__item">
+            <div class="about__img">
+              <img src="..\template\image\about\2.jpg" alt="">
+            </div>
+            <div class="about__text">Фото и видео съемка</div>
           </div>
-          <div class="about__text">Фото и видео съемка</div>
-        </div>
-        <div class="about__item">
-          <div class="about__img">
-            <img src="..\template\image\about\3.jpg" alt="">
+        </a>
+        <a href="/def/">
+          <div class="about__item">
+            <div class="about__img">
+              <img src="..\template\image\about\3.jpg" alt="">
+            </div>
+            <div class="about__text">Поддержка</div>
           </div>
-          <div class="about__text">Дизайн и  верстка сайтов</div>
-        </div>
-        <div class="about__item">
-          <div class="about__img">
-            <img src="..\template\image\about\4.jpg" alt="">
+        </a>
+        <a href="/price/">
+          <div class="about__item">
+            <div class="about__img">
+              <img src="..\template\image\about\4.jpg" alt="">
+            </div>
+            <div class="about__text">Создание сайтов</div>
           </div>
-          <div class="about__text">Адаптация под любое устройство</div>
-        </div>
+        </a>
       </div>
     </div><!--Container-->
   </section>
@@ -76,6 +82,28 @@
       </div>
     </div>
   </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <h3 class="section__suptitle">Что мы можем предложить</h3>
+        <h2 class="section__title" >Наши услуги</h2>
+      </div>
+      <div class="services">
+        <div class="services__item">
+          <img src="..\template\image\icon\icon1.png" alt="" class="services__icon">
+          <div class="services__title">
+            Фотографии
+          </div>
+          <div class="services__text">
+            В наличии у нас имееться специалист у которого большой опыт в видео и фото съемки и  обработки, который с легкость сможет устроить вам фото или видео сессию, за бесплатно :)
+          </div>
+        </div>
+        <div class="services__item">2</div>
+        <div class="services__item">3</div>
+      </div>
+    </div>
+  </section>
 
 <?php 
 	include '/template/footer.php'
