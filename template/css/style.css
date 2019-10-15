@@ -24,7 +24,7 @@ body{
 	width: 100%;
 	height: 100vh;
 
-	background: url(../image/1.jpeg)  center no-repeat;
+	background: url(../image/1.png)  center no-repeat;
 	-webkit-background-size:cover;
 	background-size: cover;
 }
@@ -122,6 +122,47 @@ body{
 .btn__inner:hover{
 	background-color:#fff;
 	color:#fce38a;
+}
+
+/* section */
+
+.section{
+	padding: 80px;
+
+}
+
+.section__header{
+	width: 100%;
+	max-width: 1200px;
+	margin-bottom: 0 auto 40px;
+
+	text-align: center;
+}
+
+.section__suptitle{
+	font-size: 24px;
+	color: #333;
+}
+
+.section__title{
+	font-size: 30px;
+	font-weight: 700;
+	color: #333;
+	text-transform: uppercase;
+}
+
+.section__title:after{
+	content: "";
+	display: block;
+	width: 100px;
+	height: 5px;
+	margin: 30px auto;
+
+	background-color: #fce38a;
+}
+
+.section__text{
+	font-size: 15px;
 }
 
 .mychange{
