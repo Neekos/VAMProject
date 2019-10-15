@@ -27,6 +27,23 @@
           <p class="section__text__pp">Мы молодая и активная команда разработчиков которая может предложить вам разработку сайтов по низкой цене, а так же сопровождение проектов, их модернизацию и перенос на другие движки.</p>
         </div>
       </div>
+      <div class="about">
+        <div class="about__item">
+          <div class="about__img">
+            <img src="..\template\image\about\2.jpg" alt="">
+          </div>
+        </div>
+        <div class="about__item">
+          <div class="about__img">
+            <img src="..\template\image\about\3.jpg" alt="">
+          </div>
+        </div>
+        <div class="about__item">
+          <div class="about__img">
+            <img src="..\template\image\about\4.jpg" alt="">
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   
