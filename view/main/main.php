@@ -145,6 +145,33 @@
     </div>
   </section>
 
+
+
+
+  <section class="section">
+    <div class="container">
+        <div class="wedo">
+          <div class="wedo__item">
+            <img src="http://placehold.it/570x380" alt="">
+          </div>
+          <div class="wedo__item">
+            <div class="accordion">
+              <div class="accordion__item">
+                <div class="accordion__header">
+                    <img src="" alt="" class="accordion_icon">
+                    <div class="accordion__title">Фотографии</div>
+                </div>
+              </div>
+                <div class="accordion__content"><p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid officiis quod, reiciendis minima id amet perferendis illo laborum architecto veritatis magnam unde vitae, deleniti quasi suscipit distinctio, ipsam laboriosam cum.</span>
+                <span>Nostrum, natus voluptatum! Velit facilis sequi, obcaecati autem aperiam labore. Tempore dicta sapiente culpa, molestias, sequi quasi soluta, facere architecto deleniti consectetur totam magni minima amet harum nisi. Rem, sint!</span>
+                <span>Dolores esse temporibus similique itaque ea deleniti aut, in laborum hic cumque perferendis facere non laudantium nostrum odit corporis, repudiandae voluptas dolorem consequuntur ad! Voluptates, quos, id. Consectetur, in, dignissimos!</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
 <?php 
 	include '/template/footer.php'
 
