@@ -32,16 +32,19 @@
           <div class="about__img">
             <img src="..\template\image\about\2.jpg" alt="">
           </div>
+          <div class="about__text">Фото и видео съемка</div>
         </div>
         <div class="about__item">
           <div class="about__img">
             <img src="..\template\image\about\3.jpg" alt="">
           </div>
+          <div class="about__text">Дизайн и  верстка сайтов</div>
         </div>
         <div class="about__item">
           <div class="about__img">
             <img src="..\template\image\about\4.jpg" alt="">
           </div>
+          <div class="about__text">Адаптация под любое устройство</div>
         </div>
       </div>
     </div>
