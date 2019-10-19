@@ -91,7 +91,7 @@
       </div>
       <div class="services">
         <div class="services__item">
-          <img src="..\template\image\icon\icon1.png" alt="" class="services__icon">
+          <img src="http://placehold.it/60" alt="" class="services__icon">
           <div class="services__title">Услуга 1</div>
           <div class="services__text">
             В наличии у нас имееться специалист у которого большой опыт в видео и фото съемки и  обработки, который с легкость сможет устроить вам фото или видео сессию, за бесплатно :)
@@ -99,7 +99,7 @@
             <a href="#">Перейти</a>
         </div>
         <div class="services__item">
-          <img src="..\template\image\icon\icon1.png" alt="" class="services__icon">
+          <img src="http://placehold.it/60" alt="" class="services__icon">
           <div class="services__title">Услуга 2</div>
           <div class="services__text">
             В наличии у нас имееться специалист у которого большой опыт в видео и фото съемки и  обработки, который с легкость сможет устроить вам фото или видео сессию, за бесплатно :)
@@ -107,7 +107,7 @@
 <a href="#">Перейти</a>
         </div>
         <div class="services__item">
-          <img src="..\template\image\icon\icon1.png" alt="" class="services__icon">
+          <img src="http://placehold.it/60" alt="" class="services__icon">
           <div class="services__title">Услуга 3</div>
           <div class="services__text">
             В наличии у нас имееться специалист у которого большой опыт в видео и фото съемки и  обработки, который с легкость сможет устроить вам фото или видео сессию, за бесплатно :)
@@ -118,7 +118,7 @@
         <hr>
       <div class="services">
         <div class="services__item">
-          <img src="..\template\image\icon\icon1.png" alt="" class="services__icon">
+          <img src="http://placehold.it/60" alt="" class="services__icon">
           <div class="services__title">Услуга 4</div>
           <div class="services__text">
             В наличии у нас имееться специалист у которого большой опыт в видео и фото съемки и  обработки, который с легкость сможет устроить вам фото или видео сессию, за бесплатно :)
@@ -126,7 +126,7 @@
 <a href="#">Перейти</a>
         </div>
         <div class="services__item">
-          <img src="..\template\image\icon\icon1.png" alt="" class="services__icon">
+          <img src="http://placehold.it/60" alt="" class="services__icon">
           <div class="services__title">Услуга 5</div>
           <div class="services__text">
             В наличии у нас имееться специалист у которого большой опыт в видео и фото съемки и  обработки, который с легкость сможет устроить вам фото или видео сессию, за бесплатно :)
@@ -134,7 +134,7 @@
 <a href="#">Перейти</a>
         </div>
         <div class="services__item">
-          <img src="..\template\image\icon\icon1.png" alt="" class="services__icon">
+          <img src="http://placehold.it/60" alt="" class="services__icon">
           <div class="services__title">Услуга 6</div>
           <div class="services__text">
             В наличии у нас имееться специалист у которого большой опыт в видео и фото съемки и  обработки, который с легкость сможет устроить вам фото или видео сессию, за бесплатно :)
@@ -152,13 +152,13 @@
     <div class="container">
         <div class="wedo">
           <div class="wedo__item">
-            <img src="http://placehold.it/570x380" alt="">
+            <img src="http://placehold.it/570x420" alt="">
           </div>
           <div class="wedo__item">
             <div class="accordion">
               <div class="accordion__item">
                 <div class="accordion__header">
-                    <img src="..\template\image\icon\icon1.png" alt="" class="accordion_icon">
+                    <img src="http://placehold.it/40" alt="" class="accordion_icon">
                     <div class="accordion__title">Фотографии</div>
                 </div>
                 <div class="accordion__content"><p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid officiis quod, reiciendis minima id amet perferendis illo laborum architecto veritatis magnam unde vitae, deleniti quasi suscipit distinctio, ipsam laboriosam cum.</span>
@@ -168,7 +168,7 @@
               </div>
               <div class="accordion__item active">
                 <div class="accordion__header">
-                    <img src="..\template\image\icon\icon1.png" alt="" class="accordion_icon">
+                    <img src="http://placehold.it/40" alt="" class="accordion_icon">
                     <div class="accordion__title">Дизайн</div>
                 </div>
                 <div class="accordion__content"><p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid officiis quod, reiciendis minima id amet perferendis illo laborum architecto veritatis magnam unde vitae, deleniti quasi suscipit distinctio, ipsam laboriosam cum.</span>
@@ -178,7 +178,7 @@
               </div>
               <div class="accordion__item">
                 <div class="accordion__header">
-                    <img src="..\template\image\icon\icon1.png" alt="" class="accordion_icon">
+                    <img src="http://placehold.it/40" alt="" class="accordion_icon">
                     <div class="accordion__title">Поддержка</div>
                 </div>
                 <div class="accordion__content"><p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid officiis quod, reiciendis minima id amet perferendis illo laborum architecto veritatis magnam unde vitae, deleniti quasi suscipit distinctio, ipsam laboriosam cum.</span>
@@ -191,6 +191,20 @@
         </div>
     </div>
   </section>
+
+  <div class="section section__gray">
+    <div class="container">
+      
+      <div class="reviews">
+        <div class="reviews__item">
+          <img src="http://placehold.it/145" alt="" class="reviews__photo">
+          <div class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor accusamus officiis, in enim repudiandae laudantium est distinctio tempora veritatis cum esse voluptate rem numquam repellat voluptas sequi ipsa sunt voluptatibus.</div>
+          <div class="reviews__author">Витя</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
 
 <?php 
 	include '/template/footer.php'

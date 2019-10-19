@@ -179,6 +179,9 @@ hr{
 	font-size: 15px;
 }
 
+.section__gray{
+	background-color: #f8f8f8;
+}
 /*about*/
 .about{
 	margin-top: 80px;
