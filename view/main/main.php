@@ -30,26 +30,32 @@
       <div class="about">
         <a href="/galereya/">
           <div class="about__item">
-            <div class="about__img">
-              <img src="..\template\image\about\2.jpg" alt="">
+            <div class="about__inner">
+              <div class="about__img">
+                <img src="..\template\image\about\2.jpg" alt="">
+              </div>
+              <div class="about__text">Фото и видео съемка</div>
             </div>
-            <div class="about__text">Фото и видео съемка</div>
           </div>
         </a>
         <a href="/def/">
           <div class="about__item">
-            <div class="about__img">
-              <img src="..\template\image\about\3.jpg" alt="">
+            <div class="about__inner">
+              <div class="about__img">
+                <img src="..\template\image\about\3.jpg" alt="">
+              </div>
+              <div class="about__text">Поддержка</div>
             </div>
-            <div class="about__text">Поддержка</div>
           </div>
         </a>
         <a href="/price/">
           <div class="about__item">
-            <div class="about__img">
-              <img src="..\template\image\about\4.jpg" alt="">
+            <div class="about__inner">
+              <div class="about__img">
+                <img src="..\template\image\about\4.jpg" alt="">
+              </div>
+              <div class="about__text">Создание сайтов</div>
             </div>
-            <div class="about__text">Создание сайтов</div>
           </div>
         </a>
       </div>
@@ -207,6 +213,63 @@
 
     </div>
   </div>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <h3 class="section__suptitle">Давайте знакомится</h3>
+        <h2 class="section__title" >Наша команда</h2>
+        <div class="section__text">
+          <p class="section__text__pp">Мы молодая и активная команда разработчиков которая может предложить вам разработку сайтов по низкой цене, а так же сопровождение проектов, их модернизацию и перенос на другие движки.</p>
+        </div>
+      </div>
+      <div class="about">
+          <div class="about__item">
+            <div class="about__inner">
+              <div class="about__img">
+                <img src="http://placehold.it/380x520" alt="">
+              </div>
+              <div class="about__text">
+                <div class="social">
+                  <a href="https://www.instagram.com/llneekll/" class="social__item" target="blank">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://vk.com/id508702339" class="social__item" target="blank">
+                    <i class="fab fa-vk"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+              <div class="about__info">
+                <div class="about__name">Андрей</div>
+                <div class="about__profession">Разработчик</div>
+              </div>
+          </div>
+
+          <div class="about__item">
+            <div class="about__inner">
+              <div class="about__img">
+                <img src="http://placehold.it/380x520" alt="">
+              </div>
+              <div class="about__text">
+                <div class="social">
+                  <a href="" class="social__item" target="blank">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://vk.com/id132447479" class="social__item" target="blank">
+                    <i class="fab fa-vk"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+              <div class="about__info">
+                <div class="about__name">Виктор</div>
+                <div class="about__profession">Разработчик</div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </section>
 
 <?php 
 	include '/template/footer.php'

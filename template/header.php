@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="/template/css/style.css">
 	<link rel="stylesheet" href="/template/css/animate.css">
 	<link rel="stylesheet" href="/template/font-awesome/css/font-awesome.css">
+  <link rel="stylesheet" href="/template/fontawesome/css/all.css">
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Play|Ubuntu+Condensed" rel="stylesheet">
 	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
