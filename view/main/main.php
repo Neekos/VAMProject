@@ -104,7 +104,7 @@
           <div class="services__text">
             В наличии у нас имееться специалист у которого большой опыт в видео и фото съемки и  обработки, который с легкость сможет устроить вам фото или видео сессию, за бесплатно :)
           </div>
-<a href="#">Перейти</a>
+            <a href="#">Перейти</a>
         </div>
         <div class="services__item">
           <img src="http://placehold.it/60" alt="" class="services__icon">
@@ -112,7 +112,7 @@
           <div class="services__text">
             В наличии у нас имееться специалист у которого большой опыт в видео и фото съемки и  обработки, который с легкость сможет устроить вам фото или видео сессию, за бесплатно :)
           </div>
-<a href="#">Перейти</a>
+            <a href="#">Перейти</a>
         </div>
       </div>
         <hr>
@@ -123,7 +123,7 @@
           <div class="services__text">
             В наличии у нас имееться специалист у которого большой опыт в видео и фото съемки и  обработки, который с легкость сможет устроить вам фото или видео сессию, за бесплатно :)
           </div>
-<a href="#">Перейти</a>
+            <a href="#">Перейти</a>
         </div>
         <div class="services__item">
           <img src="http://placehold.it/60" alt="" class="services__icon">
@@ -131,7 +131,7 @@
           <div class="services__text">
             В наличии у нас имееться специалист у которого большой опыт в видео и фото съемки и  обработки, который с легкость сможет устроить вам фото или видео сессию, за бесплатно :)
           </div>
-<a href="#">Перейти</a>
+            <a href="#">Перейти</a>
         </div>
         <div class="services__item">
           <img src="http://placehold.it/60" alt="" class="services__icon">
@@ -196,6 +196,8 @@
     <div class="container">
       
       <div class="reviews">
+        <a href="#" class="reviews__btn reviews__btn--prev">Prev</a>
+        <a href="#" class="reviews__btn reviews__btn--next">Next</a>
         <div class="reviews__item">
           <img src="http://placehold.it/145" alt="" class="reviews__photo">
           <div class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor accusamus officiis, in enim repudiandae laudantium est distinctio tempora veritatis cum esse voluptate rem numquam repellat voluptas sequi ipsa sunt voluptatibus.</div>

@@ -371,6 +371,70 @@ hr{
 	height: 30px;
 }
 
+/*reviews*/
+.reviews{
+	position: relative;
+	padding:0 110px;
+}
+.reviews__item{
+	position: relative;
+	padding-left: 205px;
+}
+.reviews__photo{
+	border:3px solid #f38181;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+.reviews__text{
+	margin-bottom: 15px;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 300;
+	color: #999;
+}
+.reviews__author{
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 700;
+	color: #333;
+}
+.reviews__author:before{
+	content: " ";
+	display: inline-block;
+	vertical-align: middle;
+	width: 50px;
+	height: 3px;
+	margin-right: 10px;
+	background-color:#f38181;
+}
+.reviews__btn{
+	position: absolute;
+	top:50%;
+	transform: translateY(50%);
+	z-index: 1;
+	font-size: 0;
+	color: transparent;
+}
+.reviews__btn:after{
+	content: "";
+	display: block;
+	width: 15px;
+	height: 15px;
+	border-top: 2px solid #ccc;
+	border-left: 2px solid #ccc;
+	
+	
+}
+.reviews__btn--prev{
+	left: 0;
+	transform: rotate(-45deg);
+}
+.reviews__btn--next{
+	right: 0;
+	transform: rotate(135deg);
+}
 /*======================================*/
 .mychange{
 	display: flex;
