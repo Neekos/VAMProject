@@ -271,6 +271,38 @@
     </div>
   </section>
 
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <h3 class="section__suptitle">Что мы используем</h3>
+        <h2 class="section__title" >Наши технологии</h2>
+        <div class="section__text">
+          <p class="section__text__pp">Мы учимся и развивам наши навыки и ищем самое лучшее что бы  сделать все возможное, что вам необходимо.</p>
+        </div>
+      </div>
+      <div class="logos">
+        <div class="logos__item">
+          <i class="fab fa-github"></i>
+        </div>
+        <div class="logos__item">
+          <i class="fab fa-github"></i>
+        </div>
+        <div class="logos__item">
+          <i class="fab fa-github"></i>
+        </div>
+        <div class="logos__item">
+          <i class="fab fa-github"></i>
+        </div>
+        <div class="logos__item">
+          <i class="fab fa-github"></i>
+        </div>
+        <div class="logos__item">
+          <i class="fab fa-github"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
 <?php 
 	include '/template/footer.php'
 

@@ -479,6 +479,16 @@ hr{
 	color:#fff;
 	background-color: #f38181;
 }
+/*logos*/
+.logos{
+	display: flex;
+	justify-content: center;
+
+}
+.logos__item{
+	padding: 25px;
+	font-size: 150px;
+}
 /*======================================*/
 .mychange{
 	display: flex;
