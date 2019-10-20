@@ -597,8 +597,83 @@ hr{
 
 }
 
+.blog{
+	display: flex;
+	justify-content: space-between;
+}
+.blog__item{
+	width: 32%
+}
+.blog__header{
+	position: relative;
+	margin-bottom: 10px;
+}
+.blog__photo{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.blog__date{
+	text-align: center;
+	font-weight: 300;
+	padding: 10px 20px;
+	position: absolute;
+	bottom: 10px;
+	left: -10px;
+	z-index: 1;
+	background-color: #333;
+	color: #fff;
+	font-size: 15px;
+	font-style: italic;
+}
+.blog__date-day{
+	font-style: normal;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1;
+}
+.blog__content{
+	margin-bottom: 10px;
+}
+.blog__title{
+	margin-bottom: 10px;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #333;
+}
+.blog__title a {
+	color: inherit;
+	text-decoration: none;
+}
+.blog__title a: hover{
+	text-decoration: underline;
+}
 
+.blog__text{
+	font-size: 15px;
+	font-weight:300;
+	color: #999;
+}
+.blog__footer{
+	border-top: 1px solid #e5e5e5;
+	padding-top: 14px;
+	font-size: 15px;
+	font-weight: 300;
+	font-style: italic;
+	color: #999;
+}
+.blog__stat{
 
+}
+.blog__stat_item{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 15px;
+	font-weight: 300;
+}
+.blog__stat_item i{
+	color: #f38181;
+}
 
 
 

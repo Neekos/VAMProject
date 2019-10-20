@@ -441,6 +441,92 @@
     </div>
   </section>
 
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <h3 class="section__suptitle">Истории</h3>
+        <h2 class="section__title" >О чем мы говорим</h2>
+        <div class="section__text">
+        </div>
+      </div>
+      <div class="blog">
+        <a href="">
+          <div class="blog__item">
+            <div class="blog__header">
+              <img class="blog__photo" src="http://placehold.it/400" alt="">
+              <div class="blog__date">
+                <div class="blog__date-day">15</div>jan
+              </div>
+            </div>
+            <div class="blog__content">
+              <a href=""><div class="blog__title">title</div></a>
+              <div class="blog__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo laborum beatae ex in tempore sed maxime, rerum doloribus. Repudiandae aut eligendi dolorem labore aliquid ratione, consectetur ut vel architecto perspiciatis?</div>
+            </div>
+            <div class="blog__foote">
+              <div class="blog__stat">
+                <span class="blog__stat_item">
+                  <i class="far fa-eye"></i>
+                </span>
+                <span class="blog__stat_item">
+                  <i class="far fa-comment-dots"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="blog__item">
+            <div class="blog__header">
+              <img class="blog__photo" src="http://placehold.it/400" alt="">
+              <div class="blog__date">
+                <div class="blog__date-day">15</div>jan
+              </div>
+            </div>
+            <div class="blog__content">
+              <a href=""><div class="blog__title">title</div></a>
+              <div class="blog__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam labore iste facilis consequatur sequi nesciunt expedita consequuntur at maiores, nulla nostrum qui commodi repudiandae neque sint magnam nisi quas eos.</div>
+            </div>
+            <div class="blog__foote">
+              <div class="blog__stat">
+                <span class="blog__stat_item">
+                  <i class="far fa-eye"></i>
+                </span>
+                <span class="blog__stat_item">
+                  <i class="far fa-comment-dots"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="">
+          <div class="blog__item">
+            <div class="blog__header">
+              <img class="blog__photo" src="http://placehold.it/400" alt="">
+              <div class="blog__date">
+                <div class="blog__date-day">15</div>jan
+              </div>
+            </div>
+            <div class="blog__content">
+              <a href=""><div class="blog__title">title</div></a>
+              <div class="blog__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, possimus, consequuntur tempore corporis dicta veritatis vel accusamus incidunt enim officiis consequatur rem sapiente, at veniam, quia inventore dolorum fugit quibusdam.</div>
+            </div>
+            <div class="blog__foote">
+              <div class="blog__stat">
+                <span class="blog__stat_item">
+                  <i class="far fa-eye"></i>
+                </span>
+                <span class="blog__stat_item">
+                  <i class="far fa-comment-dots"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
 
 <?php 
 	include '/template/footer.php'
