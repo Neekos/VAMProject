@@ -397,6 +397,7 @@ hr{
 }
 .reviews__photo{
 	border:3px solid #f38181;
+	border-radius: 50%;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -483,11 +484,63 @@ hr{
 .logos{
 	display: flex;
 	justify-content: center;
-
+	align-items: center;
 }
 .logos__item{
 	padding: 25px;
 	font-size: 150px;
+}
+
+
+/*works*/
+.works{
+	display: flex;
+}
+
+.works__col{
+	flex:1 1 0;
+}
+.works__item{
+	position: relative;
+	background: linear-gradient(to bottom, #f38181, #fce38a);
+}
+
+.works__item:hover .works__img{
+	opacity: .1;
+}
+.works__item:hover .works__info{
+	opacity: 1;
+}
+
+.works__img{
+	transition: opacity .2s linear;
+	max-width: 100%;
+	height: auto;
+}
+.works__info{
+	opacity: 0;
+	transition: opacity .2s linear;
+	position: absolute;
+	padding: 0 15px;
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	top:50%;
+	left: 0;
+	z-index: 1;
+	transform: translate3d(0,  -50%,  0);
+}
+.works__title{
+	margin-bottom: 5px;
+
+	color: #fff;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.works__text{
+	font-size: 15px;
+	font-weight: 300;
+	font-style: italic;
 }
 /*======================================*/
 .mychange{

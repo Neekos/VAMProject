@@ -303,6 +303,96 @@
     </div>
   </section>
 
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <h3 class="section__suptitle">Наши работы</h3>
+        <h2 class="section__title" >Мы разрабатываем</h2>
+        <div class="section__text">
+          <p class="section__text__pp">Мы учимся и развивам наши навыки и ищем самое лучшее что бы  сделать все возможное, что вам необходимо.</p>
+        </div>
+      </div>
+      
+    </div>
+    <div class="works">
+        <div class="works__col">
+          <div class="works__item">
+            <img src="http://placehold.it/400" alt="" class="works__img">
+            <div class="works__info">
+            <div class="works__title">titel</div>
+            <div class="works_text">text</div>
+           </div> 
+          </div>
+          <div class="works__item">
+            <img src="http://placehold.it/400" alt="" class="works__img">
+            <div class="works__info">
+            <div class="works__title">titel</div>
+            <div class="works_text">text</div>
+           </div> 
+          </div>
+        </div>
+        <div class="works__col">
+           <div class="works__item">
+            <img src="http://placehold.it/400" alt="" class="works__img">
+            <div class="works__info">
+            <div class="works__title">titel</div>
+            <div class="works_text">text</div>
+           </div> 
+          </div>
+          <div class="works__item">
+            <img src="http://placehold.it/400" alt="" class="works__img">
+            <div class="works__info">
+            <div class="works__title">titel</div>
+            <div class="works_text">text</div>
+           </div> 
+          </div>
+        </div>
+        <div class="works__col">
+          <div class="works__item">
+            <img src="http://placehold.it/400x800" alt="" class="works__img">
+            <div class="works__info">
+            <div class="works__title">titel</div>
+            <div class="works_text">text</div>
+           </div> 
+          </div>
+        </div>
+        <div class="works__col">
+           <div class="works__item">
+            <img src="http://placehold.it/400" alt="" class="works__img">
+            <div class="works__info">
+            <div class="works__title">titel</div>
+            <div class="works_text">text</div>
+           </div> 
+          </div>
+          <div class="works__item">
+            <img src="http://placehold.it/400" alt="" class="works__img">
+            <div class="works__info">
+            <div class="works__title">titel</div>
+            <div class="works_text">text</div>
+           </div> 
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+  <div class="section section">
+    <div class="container">
+      
+      <div class="reviews">
+        <a href="#" class="reviews__btn reviews__btn--prev">Prev</a>
+        <a href="#" class="reviews__btn reviews__btn--next">Next</a>
+        <div class="reviews__item">
+          <img src="http://placehold.it/145" alt="" class="reviews__photo">
+          <div class="reviews__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor accusamus officiis, in enim repudiandae laudantium est distinctio tempora veritatis cum esse voluptate rem numquam repellat voluptas sequi ipsa sunt voluptatibus.</div>
+          <div class="reviews__author">Витя</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
 <?php 
 	include '/template/footer.php'
 
