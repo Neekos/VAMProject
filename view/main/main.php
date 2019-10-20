@@ -198,7 +198,7 @@
     </div>
   </section>
 
-  <div class="section section__gray">
+  <div class="section section--gray">
     <div class="container">
       
       <div class="reviews">
@@ -391,6 +391,55 @@
 
     </div>
   </div>
+
+  <section class="section section--clients">
+    <div class="container">
+      <div class="section__header">
+        <h3 class="section__suptitle">Наши клиенты</h3>
+        <h2 class="section__title" >Что о нас говорят</h2>
+        <div class="section__text">
+        </div>
+      </div>
+      <div class="clients">
+        <div class="clients__item">
+          <img src="http://placehold.it/110" alt="" class="clients__photo">
+          <div class="clients__content">
+            <div class="clients__name">Эдуард</div>
+            <div class="clients__prof">Дизайнер</div>
+            <div class="clients__text">Я считаю что эти парни достойны Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga aperiam magnam incidunt repudiandae iusto eaque quia quae facere, officia veritatis quidem ab ducimus neque repellat dolorem placeat totam illum commodi?
+            </div>
+          </div>
+        </div>
+        <div class="clients__item">
+          <img src="http://placehold.it/110" alt="" class="clients__photo">
+          <div class="clients__content">
+            <div class="clients__name">Эдуард</div>
+            <div class="clients__prof">Дизайнер</div>
+            <div class="clients__text">Я считаю что эти парни достойны Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga aperiam magnam incidunt repudiandae iusto eaque quia quae facere, officia veritatis quidem ab ducimus neque repellat dolorem placeat totam illum commodi?
+            </div>
+          </div>
+        </div>
+        <div class="clients__item">
+          <img src="http://placehold.it/110" alt="" class="clients__photo">
+          <div class="clients__content">
+            <div class="clients__name">Эдуард</div>
+            <div class="clients__prof">Дизайнер</div>
+            <div class="clients__text">Я считаю что эти парни достойны Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga aperiam magnam incidunt repudiandae iusto eaque quia quae facere, officia veritatis quidem ab ducimus neque repellat dolorem placeat totam illum commodi?
+            </div>
+          </div>
+        </div>
+        <div class="clients__item">
+          <img src="http://placehold.it/110" alt="" class="clients__photo">
+          <div class="clients__content">
+            <div class="clients__name">Эдуард</div>
+            <div class="clients__prof">Дизайнер</div>
+            <div class="clients__text">Я считаю что эти парни достойны Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga aperiam magnam incidunt repudiandae iusto eaque quia quae facere, officia veritatis quidem ab ducimus neque repellat dolorem placeat totam illum commodi?
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 <?php 
