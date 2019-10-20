@@ -465,10 +465,10 @@
             <div class="blog__foote">
               <div class="blog__stat">
                 <span class="blog__stat_item">
-                  <i class="far fa-eye"></i>
+                  23<i class="far fa-eye"></i>
                 </span>
                 <span class="blog__stat_item">
-                  <i class="far fa-comment-dots"></i>
+                  4<i class="far fa-comment-dots"></i>
                 </span>
               </div>
             </div>
@@ -489,10 +489,10 @@
             <div class="blog__foote">
               <div class="blog__stat">
                 <span class="blog__stat_item">
-                  <i class="far fa-eye"></i>
+                  23<i class="far fa-eye"></i>
                 </span>
                 <span class="blog__stat_item">
-                  <i class="far fa-comment-dots"></i>
+                  4<i class="far fa-comment-dots"></i>
                 </span>
               </div>
             </div>
@@ -513,10 +513,10 @@
             <div class="blog__foote">
               <div class="blog__stat">
                 <span class="blog__stat_item">
-                  <i class="far fa-eye"></i>
+                  23<i class="far fa-eye"></i>
                 </span>
                 <span class="blog__stat_item">
-                  <i class="far fa-comment-dots"></i>
+                  4<i class="far fa-comment-dots"></i>
                 </span>
               </div>
             </div>
