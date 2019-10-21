@@ -73,6 +73,7 @@ hr{
 	font-weight: 360;
 	text-transform: uppercase;
 	text-align: center;
+	text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffff00, 0 0 80px #ffff00, 0 0 90px #ffff00, 0 0 100px #ffff00;
 }
 /* header */
 
