@@ -80,8 +80,6 @@ hr{
 	    0 0 80px #ffff00,
 	     0 0 90px #ffff00,
 	      0 0 100px #ffff00;
-	animation: neon 3s infinite;
-	animation-timing-function: linear;
 }
 
 @keyframes neon{
@@ -157,6 +155,15 @@ hr{
 	text-transform: uppercase;
 	text-decoration: none;
 	transition: background .3s linear, color .3s linear;
+	text-shadow: 0 0 5px #ffffff,
+	 0 0 10px #ffffff,
+	  0 0 20px #ffffff,
+	   0 0 40px #ffff00,
+	    0 0 80px #ffff00,
+	     0 0 90px #ffff00,
+	      0 0 100px #ffff00;
+	animation: neon 3s infinite;
+	animation-timing-function: linear;
 }
 .btn__inner:hover{
 	background-color:#fff;
