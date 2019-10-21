@@ -73,8 +73,32 @@ hr{
 	font-weight: 360;
 	text-transform: uppercase;
 	text-align: center;
-	text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 40px #ffff00, 0 0 80px #ffff00, 0 0 90px #ffff00, 0 0 100px #ffff00;
+	text-shadow: 0 0 5px #ffffff,
+	 0 0 10px #ffffff,
+	  0 0 20px #ffffff,
+	   0 0 40px #ffff00,
+	    0 0 80px #ffff00,
+	     0 0 90px #ffff00,
+	      0 0 100px #ffff00;
+	animation: neon 3s infinite;
+	animation-timing-function: linear;
 }
+
+@keyframes neon{
+	0%{
+		opacity: 1;
+	}
+	45%{
+		opacity: 0;
+	}
+	55%{
+		opacity: 1;
+	}
+	65%{
+		opacity: 1;
+	}
+}
+
 /* header */
 
 .header{
