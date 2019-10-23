@@ -527,6 +527,22 @@
     </div>
   </section>
 
+  
+  <section class="section section--map">
+    <div class="container">
+      <div class="map">
+        <h2 class="map__title">
+          <div class="map__icon">
+            <i class="fas fa-map-marker-alt  neon"></i>
+          </div>
+          <a href="https://goo.gl/maps/Njuz1VzZNEiMjn1S8" target="blank">Open Map</a>
+        </h2>
+      </div>
+    </div>
+  </section>
+
+
+
 
 <?php 
 	include '/template/footer.php'

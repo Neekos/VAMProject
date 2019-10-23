@@ -3,18 +3,35 @@
 
 
 
-<!-- Footer -->
-<footer class="page-footer font-small blue">
-
-  <!-- Copyright -->
-  <div class="footer-copyright text-center py-3">© 2018 Copyright:
-    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
-  </div>
-  <!-- Copyright -->
-
-</footer>
-<!-- Footer -->
-
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+      	<div class="footer__col">
+      		<div class="footer__logo">AMVProject</div>
+      		<div class="footer__text">
+      			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil sequi possimus alias numquam sunt perspiciatis sint, molestiae aperiam, rerum, deleniti quos. Repellat tenetur, repudiandae quae odit obcaecati libero magnam vero.
+      		</div>
+  			<div class="footer__social">
+  				<div class="footer__social-header">
+  					<b>15k</b>Подписки
+  				</div>
+  				<div class="footer__social-content">
+  					<a href="" target="_blank">
+  						<i class="fab fa-facebook"></i>
+  					</a>
+  					<a href="" target="_blank">
+  						<i class="fab fa-vk"></i>
+  					</a>
+  					<a href="" target="_blank">
+  						<i class="fab fa-instagram"></i>
+  					</a>
+  				</div>
+  			</div>
+  			<form action="" class="subscribe" method="post"></form>
+      	</div>
+      </div>
+    </div>
+  </footer>
 
 	
 	
