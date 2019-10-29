@@ -746,6 +746,20 @@ hr{
 	padding-top: 50px;
 	background-color: #f8f8f8;
 }
+.col--first{
+	width: 40%;
+}
+.col--two{
+	width: 30%;
+}
+.col--three{
+	width: 30%;
+}
+.footer__inner{
+	margin-bottom: 25px;
+	display: flex;
+}
+
 .footer__logo{
 	margin-bottom: 30px;
 	font-size: 46px;
@@ -784,10 +798,51 @@ hr{
 	font-size: 19px;
 	color: #95e1d3;
 }
+/*subscribe*/
 .subscribe{
 	width: 100%;
 	max-width: 380px;
+	display: flex;
 }
+.subscribe__input{
+	width: 60%;
+	background:#fff;
+	border:1px solid #e7e7e7;
+	font-size: 15px;
+	color:#000;
+	font-style:italic;
+	padding: 12px;
+	font-weight: 300;
+	height: 40px;
+	line-height: 1.1;
+	font-size: 15px; 
+}
+.subscribe__btn{
+	width: 40%;
+	margin-left: 25px;
+	border:0;
+	font-size: 15px;
+	line-height: 1.1;
+	font-weight: 700;
+	height: 40px;
+	background-color: #000;
+	color:#fff;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+.subscribe__input::placeholder{
+	color:#ccc;
+}
+.subscribe__btn:hover{
+	background-color: #6F0B0B;
+	color:red;
+}
+
+
+
+
+
+
 
 
 
