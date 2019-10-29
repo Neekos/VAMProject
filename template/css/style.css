@@ -784,7 +784,10 @@ hr{
 	font-size: 19px;
 	color: #95e1d3;
 }
-
+.subscribe{
+	width: 100%;
+	max-width: 380px;
+}
 
 
 

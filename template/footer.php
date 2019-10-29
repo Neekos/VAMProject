@@ -27,7 +27,11 @@
   					</a>
   				</div>
   			</div>
-  			<form action="" class="subscribe" method="post"></form>
+  			<form action="" class="subscribe" method="post">
+  				<input type="email" class="subscribe__input" name="email" placeholder="Your Email ... ">
+  				<button class="subscribe__btn" type="button">Подписаться</button>
+
+  			</form>
       	</div>
       </div>
     </div>
