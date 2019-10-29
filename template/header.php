@@ -14,7 +14,7 @@
 	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="/template/js/jquery-mask.js"></script>  
-	
+<script type="text/javascript" src="/template/js/script.js"></script>	
 </head>
 <body>
     <header class="header">

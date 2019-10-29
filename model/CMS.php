@@ -152,8 +152,29 @@ class CMS {
 
 		}
 		return true;
-	}	
+	}
+	public static function add_order() {
 
+		
+
+			$db = Db::getConnection();
+
+			if (isset($_POST['order'])){
+				$name = $_POST['name'];
+				$phone = $_POST['phone'];
+				$email = $_POST['email'];
+				$message = $_POST['message'];
+				$date = date("Y-m-d H:i:s");
+				
+			
+		
+			$result = $db->query("INSERT INTO `orders` (`ID`,`name`, `phone`, `email`, `message`, `date`) VALUES (Null,'".$name."','".$phone."','".$email."','".$message."','".$date."')");
+	        
+			header("Location: /main/");
+			}				
+
+			return true;
+		}
 }
 
 
