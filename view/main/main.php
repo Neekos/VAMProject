@@ -11,7 +11,29 @@
               <h2 class="intro__suptitle">Creating website for you</h2>
               <h1 class="intro__title">Welcome to VAMProject</h1>
 
-              <a href="" class="btn__inner">Заказать</a>
+              <button id="MyBtn" class="btn__inner">Заказать!</button> 
+              
+              <div id="myModal" class="modal">
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h3>Оставьте заявку и мы с вами свяжемся!</h3><br><br>
+                    <form action="" method="post">
+                    <input type="text" placeholder="Имя" name = "name"> <br><br>
+
+                    <input type="text" placeholder="Номер телефона" name = "phone"> <br><br>
+
+                    <input type="email" placeholder="Электронная почта" name = "email"> <br><br>
+                    
+                   <textarea name="message" id="" cols="30" rows="10" placeholder="Ваше сообщение"></textarea>  <br><br>
+
+                   <input type="submit" name="order" value="Отправить"><br><br>
+                    </form>
+                    
+
+                  </div>
+              
+              </div>
+
             </div>
           </div>
         </div>        
