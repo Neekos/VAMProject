@@ -105,7 +105,7 @@
         </div>
         <div class="stat__item">
           <div class="stat__count">0</div>
-          <div class="stat__text">Провальных проектов</div>
+          <div class="stat__text">Проектов в разработке</div>
         </div>  
       </div>
     </div>
