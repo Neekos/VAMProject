@@ -172,6 +172,7 @@ hr{
 
 /* section */
 
+
 .section{
 	padding: 80px;
 
@@ -220,6 +221,9 @@ hr{
 	background: url(../image/office.jpg)  center no-repeat;
 	-webkit-background-size:cover;
 	background-size: cover;
+}
+.section--map{
+	background-color: #000;
 }
 /*about*/
 .about{
@@ -287,7 +291,7 @@ hr{
 }
 /*statistics*/
 .statistics{
-	background-color: #333;
+	background-color: #000;
 }
 
 .stat{
@@ -706,6 +710,142 @@ hr{
 .blog__stat_item i{
 	color: #f38181;
 }
+
+/*map*/
+.map{
+	text-align: center;
+}
+.map__title{
+	font-size: 24;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.map__title a {
+	color:#fff;
+	text-decoration: none;
+}
+
+.map__title:hover{
+	text-decoration: underline;
+}
+
+.neon{
+	color: #ffffff;
+ 	text-shadow: 0 0 5px #ffffff,
+				  0 0 10px #ffffff,
+				   0 0 20px #ffffff, 
+				   	0 0 40px #ff00de, 
+				   	 0 0 80px #ff00de;
+	animation: neon 3s infinite;
+	animation-timing-function: linear;
+}
+
+
+/*footer*/
+.footer{
+	padding-top: 50px;
+	background-color: #f8f8f8;
+}
+.col--first{
+	width: 40%;
+}
+.col--two{
+	width: 30%;
+}
+.col--three{
+	width: 30%;
+}
+.footer__inner{
+	margin-bottom: 25px;
+	display: flex;
+}
+
+.footer__logo{
+	margin-bottom: 30px;
+	font-size: 46px;
+	font-weight: 700;
+	color: #ccc;
+}
+.footer__text{
+	margin-bottom: 30px;
+	font-size: 15px;
+	color: #999;
+}
+.footer__social{
+	margin-bottom: 25px;
+}
+.footer__social-header{
+	padding-bottom: 15px;
+	font-size: 15px;
+	color:#333;
+	border-bottom: 1px solid #e5e5e5;
+}
+.footer__social-header b{
+	font-size: 18px;
+}
+.footer__social-content{
+	padding-top: 15px;
+	font-size: 15px;
+	color:#999;
+	font-style: italic;
+	font-weight: 300;
+}
+.footer__social-content a{
+	display: inline-block;
+
+	vertical-align:middle;
+	margin-left: 10px;
+	font-size: 19px;
+	color: #95e1d3;
+}
+/*subscribe*/
+.subscribe{
+	width: 100%;
+	max-width: 380px;
+	display: flex;
+}
+.subscribe__input{
+	width: 60%;
+	background:#fff;
+	border:1px solid #e7e7e7;
+	font-size: 15px;
+	color:#000;
+	font-style:italic;
+	padding: 12px;
+	font-weight: 300;
+	height: 40px;
+	line-height: 1.1;
+	font-size: 15px; 
+}
+.subscribe__btn{
+	width: 40%;
+	margin-left: 25px;
+	border:0;
+	font-size: 15px;
+	line-height: 1.1;
+	font-weight: 700;
+	height: 40px;
+	background-color: #000;
+	color:#fff;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+.subscribe__input::placeholder{
+	color:#ccc;
+}
+.subscribe__btn:hover{
+	background-color: #6F0B0B;
+	color:red;
+}
+
+
+
+
+
+
+
+
+
 
 
 
