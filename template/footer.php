@@ -34,32 +34,62 @@
   			</form>
       	</div>
       	<div class="footer__col col--two">
-      		<div class="footer__text">
-      			
-      		</div>
-  			<div class="footer__social">
-  				<div class="footer__social-header">
-  					Тут будет блог
+  			<div class="footer__title">blogs</div>
+  			<div class="blogs">
+  				<div class="blogs__item">
+  					<img src="http://placehold.it/120x80" alt="" class="blogs__img">
+  					<div class="blogs__content">
+  						<a href="" class="blogs__title">Lorem ipsum dolor </a>
+  						<div class="">Jan 9, 2019</div>
+  					</div>
   				</div>
-  				<div class="footer__social-content">
-  					
+  				<div class="blogs__item">
+  					<img src="http://placehold.it/120x80" alt="" class="blogs__img">
+  					<div class="blogs__content">
+  						<a href="" class="blogs__title">Lorem ipsum dolor </a>
+  						<div class="">Jan 9, 2019</div>
+  					</div>
+  				</div>
+  				<div class="blogs__item">
+  					<img src="http://placehold.it/120x80" alt="" class="blogs__img">
+  					<div class="blogs__content">
+  						<a href="" class="blogs__title">Lorem ipsum dolor </a>
+  						<div class="">Jan 9, 2019</div>
+  					</div>
   				</div>
   			</div>
-  			
       	</div>
       	<div class="footer__col col--three">
-      		<div class="footer__text">
-      			
-      		</div>
-  			<div class="footer__social">
-  				<div class="footer__social-header">
-  					Тут парсинг инсты
-  				</div>
-  				<div class="footer__social-content">
-  					
-  				</div>
+  			<div class="footer__title">Instagram</div>
+  			<div class="instagram">
+  				<a href="" class="instagram__item">
+  					<img src="http://placehold.it/100" alt="" class="instagram__img">
+  				</a>
+  				<a href="" class="instagram__item">
+  					<img src="http://placehold.it/100" alt="" class="instagram__img">
+  				</a>
+  				<a href="" class="instagram__item">
+  					<img src="http://placehold.it/100" alt="" class="instagram__img">
+  				</a>
+  				<a href="" class="instagram__item">
+  					<img src="http://placehold.it/100" alt="" class="instagram__img">
+  				</a>
+  				<a href="" class="instagram__item">
+  					<img src="http://placehold.it/100" alt="" class="instagram__img">
+  				</a>
+  				<a href="" class="instagram__item">
+  					<img src="http://placehold.it/100" alt="" class="instagram__img">
+  				</a>
+  				<a href="" class="instagram__item">
+  					<img src="http://placehold.it/100" alt="" class="instagram__img">
+  				</a>
+  				<a href="" class="instagram__item">
+  					<img src="http://placehold.it/100" alt="" class="instagram__img">
+  				</a>
+  				<a href="" class="instagram__item">
+  					<img src="http://placehold.it/100" alt="" class="instagram__img">
+  				</a>
   			</div>
-  			
       	</div>
       </div>
     </div>
