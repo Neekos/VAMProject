@@ -2,8 +2,13 @@
 	include '/template/header.php';
 
 ?>
+<section class="section__nav">
+	<div class="container">
+		
+	</div>
+</section>
 <h3>Дневник разработки</h3>
-<div class="container-fluid">
+<div class="container">
 	<div class="row">
 
 <?if(!empty($DiaryList)) :?>

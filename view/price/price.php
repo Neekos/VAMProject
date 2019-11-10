@@ -7,7 +7,7 @@
     
   </div>
 </section>
-<div class="container-fluid">
+<div class="container">
 	
   <?if(!empty($serviceList)) :?>
   <? foreach ($serviceList as $items):?>

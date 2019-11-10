@@ -2,7 +2,12 @@
 	include '/template/header.php'
 
 ?>
-<div class="container-fluid">
+<section class="section__nav">
+  <div class="container">
+    
+  </div>
+</section>
+<div class="container">
 	
   <?if(isset($serviceView)) :?>
 <div class="row justify-content-center ">
